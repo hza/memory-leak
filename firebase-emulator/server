@@ -1,0 +1,3 @@
+#!/bin/sh
+
+firebase emulators:start --project test 2>&1 >server.log &
